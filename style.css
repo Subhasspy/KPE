@@ -1,0 +1,428 @@
+svg#freepik_stories-business-plan:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-business-plan.animated #freepik--background-complete--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--Gears--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--Clock--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--speech-bubble--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--Panel--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--Plant--inject-2,
+svg#freepik_stories-customer-relationship-management.animated #freepik--Promotion--inject-27 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomIn;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-business-plan.animated #freepik--character-2--inject-2,#freepik--character-1--inject-9,
+svg#freepik_stories-business-plan.animated #freepik--character-2--inject-7,
+svg#freepik_stories-customer-relationship-management.animated #freepik--character-2--inject-27 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-business-plan.animated #freepik--character-1--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--character-1--inject-7,
+svg#freepik_stories-business-plan.animated #freepik--Document--inject-9,
+svg#freepik_stories-customer-relationship-management.animated #freepik--Shadow--inject-27,
+svg#freepik_stories-customer-relationship-management.animated #freepik--character-1--inject-27,
+svg#freepik_stories-customer-relationship-management.animated #freepik--Improvement--inject-27,
+svg#freepik_stories-business-plan.animated #freepik--background-complete--inject-2,
+svg#freepik_stories-business-plan.animated #freepik--character-1--inject-2  {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideLeft;
+    animation-delay: 0s;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+svg#freepik_stories-business-plan.animated #freepik--Plant--inject-9 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedLeft;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-business-plan.animated #freepik--Chart--inject-9,
+svg#freepik_stories-business-plan.animated #freepik--character-1--inject-9,
+svg#freepik_stories-business-plan.animated #freepik--Graphics--inject-7,
+svg#freepik_stories-customer-relationship-management.animated #freepik--Lines--inject-27 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-business-plan.animated #freepik--character-2--inject-9 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+    animation-delay: 0s;
+}
+
+
+@keyframes lightSpeedLeft {
+    from {
+        transform: translate3d(-50%, 0, 0) skewX(20deg);
+        opacity: 0;
+    }
+
+    60% {
+        transform: skewX(-10deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: skewX(2deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+svg#freepik_stories-customer-relationship-management:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-customer-relationship-management.animated #freepik--background-complete--inject-27,
+svg#freepik_stories-customer-relationship-management.animated #freepik--Support--inject-27,
+svg#freepik_stories-customer-relationship-management.animated  #freepik--background-complete--inject-27 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideUp;
+    animation-delay: 0s;
+}
+
+
+
+svg#freepik_stories-customer-relationship-management.animated #freepik--Coins--inject-27 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-customer-relationship-management.animated #freepik--Gears--inject-27,
+svg#freepik_stories-business-plan.animated #freepik--background-simple--inject-7 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomOut;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-customer-relationship-management.animated #freepik--Quality--inject-27 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+    animation-delay: 0s;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+
+@keyframes lightSpeedRight {
+    from {
+        transform: translate3d(50%, 0, 0) skewX(-20deg);
+        opacity: 0;
+    }
+
+    60% {
+        transform: skewX(10deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: skewX(-2deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Update your CSS animations */
+/* Reset initial state */
+svg[id^="freepik_stories"]:not(.animated) .animable {
+    opacity: 1;
+}
+
+/* Base animation styles */
+.animated .animable {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.36, -0.01, .5, 1.38);
+}
+
+/* Global Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Scrollbar Styling */
+*::-webkit-scrollbar {
+    width: 6px;
+    border: 1px solid #0a57f0;
+    color: #fafafa;
+}
+
+/* Base Layout */
+body {
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+main {
+    max-width: 1440px; /* Optimal max-width for large screens */
+    margin: 0 auto;
+    /* padding: 0 2rem; */
+}
+/* Header Styles */
+header {
+    width: 100%;
+    max-width: 1440px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1000;
+}
+#handburger{
+    display: none;
+}
+a{
+    width: 100%;
+    color: #079c61;
+}
+nav>li:hover,a:hover, a:active{
+    background-color: #29634c;
+    border-radius: 25px;
+    color: white;
+}
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2%;
+}
+
+.left > img {
+    height: 60px;
+    width: 60px;
+}
+
+.logoText {
+    font-size: clamp(1rem, 2vw, 1.4em);
+    margin-left: 1rem;
+}
+
+/* Navigation Styles */
+.right {
+    align-items: center;
+    width: auto;
+    padding-right: 2%;
+}
+
+.right ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.right li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Section Layouts */
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-top: 1px solid #467cef;
+}
+
+.sectionRight,
+.sectionLeft {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* SVG Animations */
+.animated .animable {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.36, -0.01, .5, 1.38);
+}
+/* Responsive adjustments */
+@media screen and (min-width: 1441px) {
+    body {
+        background-color: #f5f5f5; /* Light background for large screens */
+    }
+    
+    main {
+        background-color: #fff; /* White background for content area */
+        box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+}
+/* Responsive Layout */
+@media screen and (min-width: 768px) {
+    .left > img {
+        height: 80px;
+        width: 80px;
+    }
+    section {
+        flex-direction: row;
+    }
+
+    .sectionRight,
+    .sectionLeft {
+        width: 50%;
+    }
+}
+
+/* Mobile Navigation */
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: row;
+        padding: 0.5rem;
+        align-items: flex-start; 
+    }
+    #handburger{
+        display: block;
+    }
+    .right ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right li {
+        width: 100%;
+    }
+    .right nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        width: 200px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .right nav.show {
+        display: block;
+    }
+
+    .right nav ul {
+        flex-direction: column;
+    }
+
+    .right nav ul li {
+        margin: 5px 0;
+    }
+
+    .right svg {
+        cursor: pointer;
+    }
+}
+
+/* Typography Responsive */
+h1 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    text-align: center;
+    opacity: 0;
+    animation: 1s 1 forwards slideUp;
+}
+
+h3, .sectionLeft>ul>li {
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    text-align: justify;
+    line-height: 1.2;
+}
+
+/* SVG Responsive Sizing */
+svg {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Intersection Observer Animation Classes */
+.animate-on-scroll {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.animate-in {
+    opacity: 1;
+}
